@@ -21,14 +21,14 @@ def login():
 
 
 def like_comment():
-    #bot.find_element_by_class_name('_9AhH0').click()
-    #time.sleep(1)
+    bot.find_element_by_class_name('_9AhH0').click()
+    time.sleep(1)
     bot.find_element_by_class_name('fr66n').click()
     time.sleep(2)
     comment = bot.find_element_by_class_name("Ypffh")
     comment.click()
-    #comment.send_keys('Nice')
-    #comment.submit()
+    comment.send_keys('Nice')
+    comment.submit()
     time.sleep(2)
 
 
